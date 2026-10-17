@@ -1,0 +1,9 @@
+pymupdf>=1.24.0
+pypdf>=4.0.0
+fastembed>=0.2.0
+rank_bm25>=0.2.2
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-chroma>=0.1.0
+chromadb>=0.5.0
+pyobjc-framework-Vision>=10.0; sys_platform == 'darwin'
