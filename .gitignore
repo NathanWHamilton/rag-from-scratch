@@ -1,0 +1,23 @@
+# PDFs (large document corpus — keep locally, don't push)
+Morroco/
+
+# Vector store (generated from PDFs, can be rebuilt with --reindex)
+morocco_vectorstore/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment / secrets
+.env
+*.env
+
+# macOS
+.DS_Store
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Large notebook files (optional — uncomment if you want to exclude these too)
+# *.ipynb
